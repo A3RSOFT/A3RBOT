@@ -1,7 +1,6 @@
 const WebSocket = require("ws");
 const ytSearch = require("yt-search");
 const QuizSystem = require("./quizSystem");
-
 const {
     loadJSON,
     saveJSON
