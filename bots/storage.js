@@ -1,5 +1,4 @@
 const fs = require("fs");
-
 function ensureFile(path, defaultData = []) {
 
     if (!fs.existsSync(path)) {
